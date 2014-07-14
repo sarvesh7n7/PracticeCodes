@@ -13,7 +13,7 @@ public class SubsetSum {
 		
 		//Initialization Conditions:  
 		
-		//sum zero is possible by the array.
+		//sum zero is possible by    the array.
 		for (int i = 0; i < n; i++)
 			isSumPossible[i][0] = true;
 
@@ -27,7 +27,7 @@ public class SubsetSum {
 			}
 			else isSumPossible[0][i] = false;
 		
-		
+		//main calculation logic
 		boolean combinationPossible = false;
 		int i =1,j=1;
 		for (i = 1; i < n; i++)
